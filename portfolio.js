@@ -1,11 +1,20 @@
-// This function is go for portfolio main home page
+// const exploreBtn = document.getElementById("goHomePageBtn");
 
-document.addEventListener("DOMContentLoaded", function() {
-    var exploreBtn = document.getElementById("goHomePageBtn");
+// exploreBtn.addEventListener('click', function(){
+//     const bodytContent = document.querySelector("body");
+//     bodytContent.innerHTML(".portfolioMainWrapper")
+// })
 
-    if (exploreBtn) {
-        exploreBtn.addEventListener("click", function(event) {
-            console.log("Explore successful");
-        });
-    } else {
-        console.error("Button with ID 'goHomePageBtn' not");
+
+// const exploreBtn = document.getElementById("goHomePageBtn");
+
+// exploreBtn.addEventListener('click', function(){
+//     // Assuming you want to replace the entire content of <body> with the content of ".portfolioMainWrapper"
+//     const portfolioMainContent = document.querySelector(".portfolioMainWrapper");
+
+//     if (portfolioMainContent) {
+//         document.body.innerHTML = portfolioMainContent.innerHTML;
+//     } else {
+//         console.error("Element with class 'portfolioMainWrapper' not found.");
+//     }
+// });

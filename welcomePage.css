@@ -5,7 +5,9 @@ body {
     background-color: #09050f;
     font-family: Krona One, sans-serif;
 }
-
+a{
+    text-decoration: none;
+}
 section {
     height: 100%;
     width: 100%;
